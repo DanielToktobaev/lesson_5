@@ -4,7 +4,7 @@ baseLogin = input("Enter login you are going to use in future: ")
 basePassword = input("Enter password you are going to use in future: ")
 
 def check_pass():
-    if (len(baseLogin) >= 8 and
+    if (len(basePassword) >= 8 and
         re.search(r"[A-Z]", basePassword) and
         re.search(r"[a-z]", basePassword) and
         re.search(r"\d", basePassword) and
